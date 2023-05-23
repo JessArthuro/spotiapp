@@ -1,0 +1,14 @@
+<app-loading *ngIf="loading"></app-loading>
+
+<div *ngIf="error" class="alert alert-danger animated fadeIn" role="alert">
+  {{ mensajeError }}
+</div>
+
+<app-cards [items]="newReleases"></app-cards>
+
+<!-- API - REST Countries
+<ul>
+  <li *ngFor="let country of contries">
+    {{ country.name.official }}
+  </li>
+</ul> -->

@@ -1,6 +1,7 @@
 # Spotiapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4. <br>
+`Note:` When you start this application again you must update the token using postman because it expires every hour.
 
 ## Development server
 
